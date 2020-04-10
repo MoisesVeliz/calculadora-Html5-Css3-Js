@@ -1,0 +1,63 @@
+*
+	margin: 0
+	padding: 0
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+body
+	background-color: #f0f0f0
+	font-family: 'Open sans'
+h1,h2,h3
+	text-align: center
+	margin-top: 50px
+	margin-bottom: 20px
+.container
+	width: 90%
+	max-width: 1000px
+	margin: 0 auto
+.calculadora
+	width: 450px
+	margin: 0 auto
+	border: 1px solid #DFE1E5
+	padding: 15px
+	background-color: #fff
+	border-radius: 10px
+	box-shadow: 1px 1px rgba(0,0,0,.3)
+.screen
+	margin-bottom: 10px
+	div
+		width: 100%
+		height: 65px
+		padding: 10px 20px
+		text-align: right
+		border-radius: 6px
+		border: 1px solid #DFE1E5
+		font-size:30px
+		font-family: 'Open sans'
+.teclas
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	flex-wrap: wrap
+	.tecla
+		width:23.5%
+		padding: 10px 0px
+		cursor: pointer
+		background-color: #DFE1E5
+		margin: 3px
+		font-size: 16px
+		border-radius: 4px
+		border: none
+		&:hover
+			background-color:#d7d9dd
+	.light
+		background-color: #F1F3F4
+		&:hover
+			background-color: #e8eaeb
+	.blue
+		background-color: #4285F4
+		color: #fff
+		&:hover
+			background-color: #4d8bf1
+	.bold
+		font-weight: bold

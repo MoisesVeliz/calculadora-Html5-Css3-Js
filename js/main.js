@@ -27,7 +27,7 @@ let setOperation = ( key ) => {
 		let result = eval(readScreen());
 		clearScreen();
 		writeScreen( result );
-	} else if( key == 'ac' ) {
+	} else if( key.toLowerCase() == 'ac' ) {
 		clearScreen();
 		writeScreen('0');
 	}else{
